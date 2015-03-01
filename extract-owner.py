@@ -17,7 +17,7 @@ re_hex_and_stragglers = re.compile(r"\\x(.*?)", re.DOTALL)
 
 #searchfile = open("parsed-pdf_object180.txt", "r")
 #parsed-pdf_cust-pass.txt
-searchfile = open(argv[1], "r")
+searchfile = open(sys.argv[1], "r")
 
 bytestring = ""
 for line in searchfile:
