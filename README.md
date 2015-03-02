@@ -1,7 +1,7 @@
 # pdf-parsing
 ## Random scripts to extract PDF security details and manipulate hashes
 
-The general workflow to decrypt password protected PDFs is to just use [pdf2john](https://github.com/magnumripper/JohnTheRipper/blob/unstable-jumbo/run/pdf2john.py) and [hashcat](http://hashcat.net/oclhashcat/). To make this process easier I've created a couple of scripts to automate some of the basic legwork. However, note you may have to change the [-m hash type](http://hashcat.net/wiki/doku.php?id=hashcat#options "Hashcat wiki").
+The general workflow to decrypt password protected PDFs is to just use [pdf2john](https://github.com/magnumripper/JohnTheRipper/blob/unstable-jumbo/run/pdf2john.py) and [hashcat](http://hashcat.net/oclhashcat/). To make this process easier I've created a couple of scripts to automate some of the basic legwork. However, note you may have to change the [-m hash type](http://hashcat.net/forum/thread-4085.html "Hashcat wiki").
 
     pdfhash.cmd SOME.PDF
     generic-pdf-strategies SOME.PDF-hash.txt
